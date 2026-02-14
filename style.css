@@ -29,3 +29,7 @@ li {
   display: flex;
   justify-content: space-between;
 }
+
+li button {
+  margin-left: 5px;
+}
