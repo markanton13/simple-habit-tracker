@@ -22,3 +22,12 @@ addBtn.addEventListener("click", () => {
 
   habitInput.value = "";
 });
+
+const deleteBtn = document.createElement("button");
+deleteBtn.textContent = "Delete";
+
+deleteBtn.addEventListener("click", () => {
+  li.remove();
+});
+
+li.appendChild(deleteBtn);
